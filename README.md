@@ -50,6 +50,8 @@ Ao executar o comando acima, o frontend estará disponível na URL `http://local
 
 É possível acessar o sistema com o usuário padrão `admin` e senha `admin`.
 
+Para acessar a documentação dos endpoints acesse `http://localhost:5000/apidoc/redoc`
+
 ### Sem Docker
 
 #### Preparando ambiente
