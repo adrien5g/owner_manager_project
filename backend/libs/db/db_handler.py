@@ -11,7 +11,10 @@ class DatabaseHandler(Database):
             if os.environ['API_TEST_ENVIROMENT'] == 'true':
                 test_string = '_test'
 
-        self.engine = create_engine(f'sqlite:///database{test_string}.sqlite')
+        if not os.path.exists('data'):
+            os.makedirs('data')
+
+        self.engine = create_engine(f'sqlite:///data/database{test_string}.sqlite')
         self.session = None
 
     def get_engine(self) -> Engine:

@@ -13,7 +13,7 @@ def boostrap():
         if environ['API_TEST_ENVIROMENT'] == 'true':
             test_enviroment = True
     
-    if path.isfile('database.sqlite') and not test_enviroment:
+    if path.isfile('data/database.sqlite') and not test_enviroment:
         return
 
     database = DatabaseHandler()
