@@ -1,0 +1,4 @@
+**/*.pyc
+tests
+database.sqlite
+.venv
