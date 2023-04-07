@@ -42,7 +42,7 @@ Algumas funcionalidades extras foram desenvolvidas para tornar o sistema mais co
 
 Para executar o projeto com Docker, basta rodar o seguinte comando:
 
-```
+```bash
 docker-compose up -d
 ```
 
@@ -72,7 +72,8 @@ Para executar o projeto sem Docker, é necessário primeiro instalar as dependê
 
     **(Opcional)** Crie um ambiente de desenvolvimento e depois ative
     ```bash
-    python3 -m venv .venv && source .venv/bin/activate
+    python3 -m venv .venv
+    source .venv/bin/activate
     ```
 
     Instale as dependências
