@@ -38,7 +38,7 @@ Algumas funcionalidades extras foram desenvolvidas para tornar o sistema mais co
 
 ## Como Executar
 
-### Com Docker
+### Com Docker (Recomendado)
 
 Para executar o projeto com Docker, basta rodar o seguinte comando:
 
