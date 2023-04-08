@@ -22,7 +22,7 @@ O sistema foi desenvolvido utilizando as seguintes tecnologias:
 - Redoc: utilizado para documentação de API
 - Pydantic: utilizado para transformação de dados internamente
 - SQLModel: utilizado para interagir com o banco de dados
-- Svelte: utilizado no frontend
+- Streamlit: utilizado no frontend
 - Pytest: utilizando para testes automatizados
 - Docker: utilizado para facilitar a execução do projeto
 
