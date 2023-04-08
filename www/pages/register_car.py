@@ -37,7 +37,7 @@ class RegisterCar(BasePage):
         col1, col2 = st.columns(2)
     
         color = col1.selectbox('Color', car_options['colors'])
-        type = col2.selectbox('Tolor', car_options['types'])
+        type = col2.selectbox('Type', car_options['types'])
         owner = self.st.selectbox('Owner', owners)
 
         if owner == None:
