@@ -18,7 +18,7 @@ def start_api():
     time.sleep(1)
     yield 1
     process.terminate()
-    os.remove('database_test.sqlite')
+    os.remove('data/database_test.sqlite')
 
 @fixture()
 def access_token() -> str:
